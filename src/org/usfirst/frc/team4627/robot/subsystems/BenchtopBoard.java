@@ -17,8 +17,7 @@ public class BenchtopBoard extends Subsystem {
 	CANTalon motor3 = new CANTalon(3);
 	CANTalon motor4 = new CANTalon(4);
 	CANTalon motor5 = new CANTalon(5);
-	CANTalon motor6 = new CANTalon(6);
-	CANTalon motor7 = new CANTalon(7);
+
 
     public void initDefaultCommand() {
         // Set the default command for a subsystem here.
@@ -45,12 +44,7 @@ public class BenchtopBoard extends Subsystem {
     	case 5:
     		motor5.set(speed);
     		break;
-    	case 6:
-    		motor6.set(speed);
-    		break;
-    	case 7:
-    		motor7.set(speed);
-    		break;
+    	
     	}
     }
     

@@ -17,7 +17,7 @@ public class SixAxes extends Command {
     }
 
     protected void execute() {
-    	for(int i=0; i<6; i++){
+    	for(int i=0; i<7; i++){
     		Robot.board.setMotor(i, Robot.oi.getDriverRawAxis(i));
     	}
     	
